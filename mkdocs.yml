@@ -1,0 +1,32 @@
+site_name: pluralkit.py
+nav:
+    - index.md
+    - getting_started.md
+theme:
+  name: material
+  logo: images/pluralkit_py_logo.png
+  favicon: images/pluralkit_py_logo.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    scheme: slate
+    primary: black
+    accent: cyan
+  features:
+    - navigation.instant
+    - navigation.tabs
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true
+plugins:
+  - git-revision-date
+  - search
+repo_url: https://github.com/Johnystar/pluralkit.py
+repo_name: Johnystar/pluralkit.py
+edit_uri: edit/master/docs/
