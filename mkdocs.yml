@@ -1,7 +1,7 @@
 site_name: pluralkit.py
 nav:
-    - index.md
-    - getting_started.md
+  - index.md
+  - getting_started.md
 theme:
   name: material
   logo: images/pluralkit_py_logo.png
@@ -21,9 +21,9 @@ markdown_extensions:
   - pymdownx.superfences
   - toc:
       permalink: true
-  # - pymdownx.emoji:
-  #     emoji_index: !!python/name:materialx.emoji.twemoji
-  #     emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 plugins:
   - git-revision-date
   - search
